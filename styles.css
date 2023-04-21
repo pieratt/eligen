@@ -1,0 +1,237 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn,  img, ins, kbd, q, s, samp,
+small, strike,  sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    }
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+    }
+
+body {
+    font-family: Times New Roman,Times,serif;
+        font-weight: 300;
+        font-size: 22px;
+    background-color: #666;
+    color: #eee;
+    background-image: radial-gradient(#999, #555);
+    background: linear-gradient(-45deg, #F0B9DC, #EDEAC1, #B5FFBF, #93D9ED, #DAC8F8);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    width: 100%;
+    margin: 50px auto;
+    border: 0px solid #333;
+    max-width:900px;
+    min-width:900px;
+    top:77px;
+}
+.longform {
+    max-width:900px;
+    min-width:900px;
+    top:77px;
+}
+.library_container {
+    width: 100%;
+    margin: 50px auto;
+    overflow: hidden;
+    border: 0px solid #333;
+
+    top:77px;
+}
+
+table {
+    border: 4px outset #777;
+    
+}
+table, th, td {
+  padding: 20px;
+  text-align:center;
+}
+td{
+        padding: 40px 10px 60px 10px;
+}
+}
+th  {
+  background-color:#333;
+  padding:50px 0;
+}
+.nav {
+    border: 0px solid #333;
+    padding: 0 0 0 15px;
+    float: left;
+    position:fixed;
+    width:100px;
+    top: 40px;
+    font-size:18px;
+}
+.navbutton {
+    display:block;
+    width:150px;
+    height:150px;
+    border: 3px solid white;
+    border-radius:10px;
+    padding: 20px;
+    margin:0 20px 20px 0;
+    float:left;
+}
+.navbutton_pending {
+    display:block;
+    width:150px;
+    height:150px;
+    border: 3px solid #999;
+    border-radius:10px;
+    padding: 20px;
+    margin:0 20px 20px 0;
+    float:left;
+    color:#666;
+}
+.footer {
+    padding-top:200px;
+    padding-bottom:400px;
+    margin-bottom:200px;
+}
+.footer_col1 {
+    float:left;
+    padding-right:50px;
+    margin-right:10px;
+}
+.instructions {
+    margin: 0px;
+}
+p, table {
+    margin: 0 0 1.5em 0;
+
+}
+a {
+    color: #eee;
+    text-decoration:none;
+}
+a:hover {
+    color: #eee;
+    text-decoration:underline;
+}
+h1 {
+    text-align: left;
+    line-height:1.2em;
+    margin: 0 0 50px 50px;
+    padding: 0 0 0 50px;
+}
+h4 {
+}
+
+.preloader_container {
+    display:block;
+    height:30px;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:20px;
+    background-color:#111;
+    border-radius:5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+
+
+label, input, button {
+    margin-bottom: 20px;
+    padding:50px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius:10px;
+    margin: 0 20px 20px 20px;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+.output {
+    border: 0px solid #333;
+
+}
+
+.output p {
+    display:inline;
+    color:#fff;
+    text-align:center;
+}
+.output h3 {
+    display:block;
+    padding:20px;
+    background-color:#111;
+    border-radius:5px;
+    margin-bottom:10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#translationForm{
+    border: 20px outset #777;
+    padding: 0px;
+
+    
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-left {
+    width: 48%;
+}
+.column-right {
+    width: 45%;
+    border-left: 0px solid #999;
+    padding-left:20px;
+    text-align:center;
+}
+
+
+
+}
