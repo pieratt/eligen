@@ -56,6 +56,10 @@ body {
     min-width:900px;
     top:77px;
 }
+.splash {
+    text-shadow: 0px 1px 1px rgba(97, 97, 97, 0.33);
+    
+}
 .longform {
     max-width:900px;
     min-width:900px;
