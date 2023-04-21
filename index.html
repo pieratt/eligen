@@ -1,0 +1,955 @@
+<html lang="en">
+<head>
+    <!--
+    Please forgive my code.
+    It's rouuuuuugh as I go through and play with things by hand. I promise it will be cleaned up and inline css removed etc. Patience please.
+    -->
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=980" />
+        <link rel="stylesheet" href="styles.css">
+            
+            <title>Eligion</title>
+            <style>
+                
+                
+                table {
+                    color:#333;
+                    width: 100%;
+                }
+                
+                
+                .col-1,.col-2, .col-3 {
+                    width: 12.5%;
+                }
+                .col-4,.col-5 {
+                    width: 30%;
+                }
+                th, td {
+                    padding: 4px 8px;
+                    text-align: left;
+                }
+                th {
+                    background-color: #cccccc;
+                    font-weight: bold;
+                }
+                tr:nth-child(odd) {
+                    background-color: #f2f2f2;
+                }
+                tr:nth-child(even) {
+                    background-color: #ffffff;
+                }
+                th, td {
+                    border: 1px solid #000000;
+                }
+                .quotes-container {
+                    width: 400px;
+                    margin: 0 auto;
+                }
+                .quote {
+                    margin-bottom: 20px;
+                    display: flex;
+                }
+                .quote-text {
+                    font-size: 16px;
+                    width: 60%;
+                }
+                .meta {
+                    font-size: 12px;
+                    width: 40%;
+                    padding-left: 20px;
+                }
+                hr {
+                    clear: both;
+                    margin-bottom: 20px;
+                }
+                table a {
+                    color: black;
+                    text-decoration:underline;
+                }
+                table a:hover {
+                    color:black;
+                    text-decoration:none;
+                }
+            </style>
+
+
+</head>
+<body>
+    
+    <div class="container">
+        <p> Library 0.1</p>
+        <a href="#teachers">Teachers</a><br>
+        <a href="#powers">Powers</a><br>
+        <a href="#trigrams">Trigrams</a><br>
+        <a href="#telos">Telos</a><br>
+        <br>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <table>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+
+            <th>01</th>
+            <th>11</th>
+            <th>10</th>
+            <th>00</th>
+            </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>⬜️→⬛️</th>
+            <th>⬜️→⬜️</th>
+            <th>⬜️→⬛️</th>
+            <th>⬛️→⬛️</th>
+          </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>Spring</th>
+            <th>Summer</th>
+            <th>Fall</th>
+            <th>Winter</th>
+          </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>Start</th>
+            <th>Steady</th>
+            <th>Change</th>
+            <th>Steady</th>
+          </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th>Modality</th>
+            <th>Cardinal</th>
+            <th>Fixed</th>
+            <th>Mutable</th>
+            <th>Fixed</th>
+          </tr>
+
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>Air</th>
+            <th>Fire</th>
+            <th>Water</th>
+            <th>Earth</th>
+          </tr>
+          <tr>
+            <td style="background-color: #cccccc;">01</td>
+            <td style="background-color: #cccccc;">Start</td>
+            <td style="background-color: #cccccc;">Cardinal</td>
+            <td>0101 Libra</td>
+            <td>0111 Aries</td>
+            <td>0110 Cancer</td>
+            <td>0100 Capricorn</td>
+          </tr>
+          <tr>
+            <td style="background-color: #cccccc;">11</td>
+            <td style="background-color: #cccccc;">Steady</td>
+            <td style="background-color: #cccccc;">Fixed</td>
+            <td>1101 Aquarius</td>
+            <td>1111 Leo</td>
+            <td>1110 Scorpio</td>
+            <td>1100 Taurus</td>
+          </tr>
+          <tr>
+            <td style="background-color: #cccccc;">10</td>
+            <td style="background-color: #cccccc;">Change</td>
+            <td style="background-color: #cccccc;">Mutable</td>
+            <td>1001 Gemini</td>
+            <td>1011 Sag</td>
+            <td>1001 Pisces</td>
+            <td>1000 Virgo</td>
+          </tr>
+          <tr>
+            <td style="background-color: #cccccc;">00</td>
+            <td style="background-color: #cccccc;">Steady</td>
+            <td style="background-color: #cccccc;">Fixed</td>
+            <td>0001 Aquarius</td>
+            <td>0011 Leo</td>
+            <td>0010 Scorpio</td>
+            <td>0000 Taurus</td>
+          </tr>
+   </table>
+        
+        
+           <hr></hr>
+           <hr></hr>
+           <hr></hr>
+           <hr></hr>
+           <hr></hr>
+        <p id="teachers">Teachers</p>
+    <table width="100%">
+      <tr>
+        <th>Mind</th>
+        <th>Spirit</th>
+        <th>Heart</th>
+        <th>Body</th>
+      </tr>
+      
+      <tr>
+        <td><a href="https://www.youtube.com/watch?v=yimuSVycLxo&t=320s" target="_blank">Rupert Sheldrake</a></td>
+        <td><a href="https://www.amazon.com/Saturn-New-Look-Old-Devil/dp/1578635071" target="_blank">Liz Greene</a></td>
+        <td>Ananda</a></td>
+        <td>Lao Tzu</a></td>
+      </tr>
+      <tr>
+        <td>John Vervaeke</a></td>
+        <td>Dion Fortune</a></td>
+        <td><a href="https://www.youtube.com/watch?v=KgXaIYpAEHQ" target="_blank">I Ching Tutorial</a></td>
+        <td><a href="https://www.amazon.com/Ching-Book-Changes-Bollingen-General/dp/069109750X" target="_blank">I Ching Translation</a></td>
+      </tr>
+      <tr>
+        <td>Jason Reza Jorjani</a></td>
+        <td><a href="https://www.amazon.com/Word-World-Forest-Hainish-Cycle-ebook/dp/B003U2TR6I" target="_blank">Ursula Le Guin</a></td>
+        <td>Dane Rudyar</a></td>
+        <td>Terrence McKenna</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.youtube.com/watch?v=FWYAOGcCgWI" target="_blank">Pierre Grimes</a></td>
+        <td>The Nag Hammadi Bible</a></td>
+        <td>The Dead Sea Scrolls</a></td>
+        <td><a href="https://www.amazon.com/Stalking-Wild-Pendulum-Mechanics-Consciousness/dp/0892812028" target="_blank">Itzhak Bentov</a></td>
+      </tr>
+      <tr>
+         <td><a href="https://twitter.com/Hermitixpodcast" target="_blank">Hermetix</a></td>
+         <td><a href="https://www.youtube.com/watch?v=3GNypViGWdc" target="_blank">Joseph Campbell</a></td>
+         <td><a href="https://jamesdekorne.com/GBCh/GBCh.htm" target="_blank">The Gnostic Book of Changes</a></td>
+         <td><a href="https://www.youtube.com/watch?v=N4_E5MlAH-w" target="_blank">Terry Marks-Tarlow</a></td>
+       </tr>
+       <tr>
+         <td></td>
+         <td><a href="https://hyperallergic.com/490918/pamela-colman-smith-pratt-institute-libraries/" target="_blank">Pamela Coleman Smith</a></td>
+         <td></td>
+         <td></td>
+       </tr>
+       <tr>
+         <td colspan="14">
+             ^^^ the sorting is AI generated (for now) and awful, but the links and sources are good</td>
+       </tr>
+     </table>
+    <hr></hr>
+    <hr></hr>
+    <hr></hr>
+    <hr></hr>
+    <hr></hr>
+    <hr></hr>
+    <hr></hr>
+    <hr></hr>
+    <hr></hr>
+    <hr></hr>
+
+    <p id="powers">Esoteric concepts sorted by powers of 2</p>
+        <table border="1">
+          <tr>
+            <th>Category</th>
+            <th>2</th>
+            <th>4</th>
+            <th>8</th>
+            <th>16</th>
+            <th>32</th>
+            <th>64</th>
+          </tr>
+          <td>Gematria</td>
+          <td>2 represents duality and balance</td>
+          <td>4 signifies the divine structure</td>
+          <td>8 signifies abundance and spiritual infinity</td>
+          <td>16, as the square of 4, denotes a higher level of divine structure and order</td>
+          <td>32 paths of wisdom</td>
+          <td>64 occurrences of the name Elohim, indicating divine power and providence</td>
+        </tr>
+        <tr>
+            <td>Chess</td>
+            <td>Colors, players</td>
+            <td>Movement types</td>
+            <td>Rows, columns, pawns per side</td>
+            <td>Pieces per side, total pawns</td>
+            <td>Total pieces</td>
+            <td>Total squares</td>
+          </tr>
+          <tr>
+            <td>Kabbalah</td>
+            <td>Pillars of the Tree of Life</td>
+            <td></td>
+            <td>Sephirot without Da'at</td>
+            <td></td>
+            <td>Paths of Wisdom</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>I Ching</td>
+            <td>Basic lines</td>
+            <td></td>
+            <td>Trigrams</td>
+            <td></td>
+            <td></td>
+            <td>Hexagrams</td>
+          </tr>
+          <tr>
+            <td>Ogdoad</td>
+            <td>Pairs of gods and goddesses</td>
+            <td></td>
+            <td>Total deities</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Bagua</td>
+            <td>Basic principles</td>
+            <td></td>
+            <td>Trigrams</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Yoga</td>
+            <td></td>
+            <td></td>
+            <td>Limbs of Yoga</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Christianity</td>
+            <td>Testaments</td>
+            <td>Gospels</td>
+            <td>Beatitudes</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Geomancy</td>
+            <td>Basic elements</td>
+            <td>Classical elements</td>
+            <td>Houses in the Shield Chart</td>
+            <td>Geomantic figures</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Tarot</td>
+            <td>Major divisions</td>
+            <td>Suits in the Minor Arcana</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Astrology</td>
+            <td>Polarities</td>
+            <td>Elements</td>
+            <td>Moon phases</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Mysticism</td>
+            <td>Concepts of duality</td>
+            <td>Alchemical elements</td>
+            <td></td>
+            <td></td>
+            </tr>
+          <tr>
+              <td colspan="14">
+                  Other:
+                  — 64 codons of DNA
+          </tr>
+        </table>
+        
+        <hr></hr>
+        
+        <p id="powers">Esoteric number-based concepts outside ^2</p>
+        <table border="1" style="width:100%;" width="100%">
+          <tbody>
+            <tr>
+              <th>Category</th>
+              <th>3</th>
+              <th>5</th>
+              <th>6</th>
+              <th>7</th>
+ 
+            </tr>
+            <tr>
+              <td>Gematria</td>
+              <td>3 embodies harmony and spiritual growth</td>
+              <td>5 represents grace and divine favor</td>
+              <td>6 symbolizes the balance between the physical and spiritual worlds</td>
+              <td>7 denotes divine perfection</td>
+
+            </tr>
+            <tr>
+              <td>Chess</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Kabbalah</td>
+              <td></td>
+              <td></td>
+              <td></td>
+
+              <td>Seven lower Sephirot</td>
+            </tr>
+            <tr>
+              <td>I Ching</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Ogdoad</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+
+            </tr>
+            <tr>
+              <td>Bagua</td>
+              <td></td>
+              <td>Five Elements (Wuxing)</td>
+              <td></td>
+
+            </tr>
+            <tr>
+              <td>Yoga</td>
+              <td>Gunatraya (three fundamental qualities)</td>
+              <td>Yamas (ethical guidelines)</td>
+              <td></td>
+              <td></td>
+
+
+            </tr>
+            <tr>
+              <td>Christianity</td>
+              <td>Holy Trinity</td>
+              <td></td>
+              <td></td>
+              <td>Seven deadly sins, Seven virtues</td>
+
+            </tr>
+            <tr>
+              <td>Geomancy</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>Seven planets of classical astrology</td>
+
+            </tr>
+            <tr>
+              <td>Tarot</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+
+            </tr>
+            <tr>
+              <td>Astrology</td>
+              <td>Modes (Cardinal, Fixed, Mutable)</td>
+              <td></td>
+              <td>Six-pointed star representing the interaction of fire and water elements</td>
+              <td>Seven classical planets</td>
+
+            </tr>
+            <tr>
+              <td>Mysticism</td>
+              <td></td>
+              <td>Five elements in some traditions</td>
+              <td>Six-pointed Star of David in Jewish mysticism, representing the union of opposites</td>
+              <td>Seven chakras, Seven metals of alchemy</td>
+
+            </tr>
+          </tbody>
+        </table>
+        <table border="1" style="width:100%;" width="100%">
+          <tbody>
+            <tr>
+              <th>Category</th>
+                <th>9</th>
+              <th>10</th>
+              <th>11</th>
+              <th>12</th>
+            </tr>
+            <tr>
+              <td>Gematria</td>
+               <td>9 symbolizes divine completeness</td>
+              <td>10 embodies the perfection of divine order</td>
+              <td>11 represents the spiritual transition</td>
+              <td>12 signifies the completion of a cycle</td>
+            </tr>
+            <tr>
+              <td>Chess</td>
+              
+              <td></td>
+              <td></td>
+
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Kabbalah</td>
+              
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>I Ching</td>
+              
+              <td></td>
+
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Ogdoad</td>
+              
+
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Bagua</td>
+              
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Yoga</td>
+              
+
+              <td></td>
+              <td>Niyamas (personal practices)</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Christianity</td>
+              
+              <td>Fruits of the Holy Spirit</td>
+              <td>Commandments (minus the first two)</td>
+              <td></td>
+              <td>Apostles</td>
+            </tr>
+            <tr>
+              <td>Geomancy</td>
+              
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Tarot</td>
+              
+              <td>Cards in each suit (Minor Arcana)</td>
+              <td>Numbered cards in each suit (Minor Arcana)</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Astrology</td>
+              
+              <td></td>
+              <td>Planetary aspects (major)</td>
+              <td></td>
+              <td>Zodiac signs, houses</td>
+            </tr>
+            <tr>
+              <td>Mysticism</td>
+              
+              <td></td>
+              <td></td>
+              <td>Eleven sefirot in some Kabbalistic models (including Da'at)</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+
+        <p id="trigrams">I Ching trigram data</p>
+        <table>
+          <tr>
+            <th>Trigram</th>
+            <th>Lines</th>
+            <th>One-Sentence Wisdom</th>
+            <th>Wilhelm/Baynes Title</th>
+            <th>Original Title</th>
+          </tr>
+          <tr>
+            <td>Ch'ien (Heaven / Qian)</td>
+            <td>Yang, Yang, Yang (+++)</td>
+            <td>Encourages decisive action and embracing your creative potential.</td>
+            <td>The Creative</td>
+            <td>Qian</td>
+          </tr>
+          <tr>
+            <td>Chên (Thunder / Zhen)</td>
+            <td>Yin, Yin, Yang (--+)</td>
+            <td>Inspires initiating change, awakening, and breaking through obstacles.</td>
+            <td>The Arousing</td>
+            <td>Zhen</td>
+          </tr>
+          <tr>
+            <td>K'an (Water / Kan)</td>
+            <td>Yin, Yang, Yin (-+-)</td>
+            <td>Highlights resilience, wisdom, and navigating through difficulties with grace.</td>
+            <td>The Abysmal</td>
+            <td>Kan</td>
+          </tr>
+          <tr>
+            <td>Kên (Mountain / Gen)</td>
+            <td>Yang, Yin, Yin (+--)</td>
+            <td>Advocates for stillness, reflection, and cultivating inner strength.</td>
+            <td>Keeping Still</td>
+            <td>Gen</td>
+          </tr>
+          <tr>
+            <td>K'un (Earth / Kun)</td>
+            <td>Yin, Yin, Yin (---)</td>
+            <td>Promotes nurturing, support, and establishing a strong foundation.</td>
+            <td>The Receptive</td>
+            <td>Kun</td>
+          </tr>
+          <tr>
+            <td>Sun (Wind / Xun)</td>
+            <td>Yang, Yang, Yin (++-)</td>
+            <td>Emphasizes adaptability, gentle persuasion, and the power of influence.</td>
+            <td>The Gentle</td>
+            <td>Xun</td>
+          </tr>
+          <tr>
+            <td>Li (Fire)</td>
+            <td>Yang, Yin, Yang (+-+)</td>
+            <td>Stresses enthusiasm, clarity, and the importance of personal growth.</td>
+            <td>The Clinging</td>
+            <td>Li</td>
+          </tr>
+          <tr>
+            <td>Tui (Lake / Dui)</td>
+            <td>Yin, Yang, Yang (-++)</td>
+            <td>Encourages open communication, joy, and building harmonious relationships.</td>
+            <td>The Joyous</td>
+            <td>Dui</td>
+          </tr>
+        </table>
+
+        <table>
+          <tr>
+            <th>Trigram</th>
+            <th>Lines</th>
+            <th>One-Sentence Wisdom</th>
+            <th>Wilhelm/Baynes Title</th>
+            <th>Original Title</th>
+          </tr>
+          <tr>
+            <td>Ch'ien (Heaven / Qian)</td>
+            <td>Yang, Yang, Yang (+++)</td>
+            <td>Encourages decisive action and embracing your creative potential.</td>
+            <td>The Creative</td>
+            <td>Qian</td>
+          </tr>
+          <tr>
+            <td>Chên (Thunder / Zhen)</td>
+            <td>Yin, Yin, Yang (--+)</td>
+            <td>Inspires initiating change, awakening, and breaking through obstacles.</td>
+            <td>The Arousing</td>
+            <td>Zhen</td>
+          </tr>
+          <tr>
+            <td>K'an (Water / Kan)</td>
+            <td>Yin, Yang, Yin (-+-)</td>
+            <td>Highlights resilience, wisdom, and navigating through difficulties with grace.</td>
+            <td>The Abysmal</td>
+            <td>Kan</td>
+          </tr>
+          <tr>
+            <td>Kên (Mountain / Gen)</td>
+            <td>Yang, Yin, Yin (+--)</td>
+            <td>Advocates for stillness, reflection, and cultivating inner strength.</td>
+            <td>Keeping Still</td>
+            <td>Gen</td>
+          </tr>
+          <tr>
+            <td>K'un (Earth / Kun)</td>
+            <td>Yin, Yin, Yin (---)</td>
+            <td>Promotes nurturing, support, and establishing a strong foundation.</td>
+            <td>The Receptive</td>
+            <td>Kun</td>
+          </tr>
+          <tr>
+            <td>Sun (Wind / Xun)</td>
+            <td>Yang, Yang, Yin (++-)</td>
+            <td>Emphasizes adaptability, gentle persuasion, and the power of influence.</td>
+            <td>The Gentle</td>
+            <td>Xun</td>
+          </tr>
+          <tr>
+            <td>Li (Fire)</td>
+            <td>Yang, Yin, Yang (+-+)</td>
+            <td>Stresses enthusiasm, clarity, and the importance of personal growth.</td>
+            <td>The Clinging</td>
+            <td>Li</td>
+          </tr>
+          <tr>
+            <td>Tui (Lake / Dui)</td>
+            <td>Yin, Yang, Yang (-++)</td>
+            <td>Encourages open communication, joy, and building harmonious relationships.</td>
+            <td>The Joyous</td>
+            <td>Dui</td>
+          </tr>
+        </table>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+        <hr></hr>
+
+        <p id="telos">Telos</p>
+        <table>
+          <thead>
+            <tr>
+              <th class="col-1">Name and Dates</th>
+              <th class="col-2">Publication</th>
+              <th class="col-3">School</th>
+              <th class="col-4">Quote</th>
+              <th class="col-5">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+              <!-- Aristotle -->
+              <tr>
+                  <td>Aristotle, 384-322 BC</td>
+                  <td>Nicomachean Ethics, Book I, 1097a</td>
+                  <td style="writing-mode:vertical-rl;">Ancient Greek philosophy</td>
+                  <td>"Every art and every inquiry, and similarly every action and pursuit, is thought to aim at some good; and for this reason the good has rightly been declared to be that at which all things aim."</td>
+                  <td>Aristotle believed that everything in nature possesses an intrinsic purpose or "telos." He argued that by understanding the natural order, we can discern the purpose of all things.</td>
+              </tr>
+              <!-- Thomas Aquinas -->
+              <tr>
+                  <td>Thomas Aquinas, 1225-1274</td>
+                  <td>Summa Theologica, Part I, Question 2, Article 3</td>
+                  <td style="writing-mode:vertical-rl;">Scholasticism</td>
+                  <td>"Whatever lacks intelligence cannot move towards an end, unless it be directed by some being endowed with knowledge and intelligence; as the arrow is shot to its mark by the archer. Therefore, some intelligent being exists by whom all natural things are directed to their end."</td>
+                  <td>Aquinas saw divine providence guiding all beings toward their ultimate ends, or "telos." He considered that the natural world, created by God, is inherently purposeful.</td>
+              </tr>
+              <!-- Jean-Paul Sartre -->
+              <tr>
+                  <td style="color: black;">Jean-Paul Sartre, 1905-1980</td>
+                  <td style="color: black;">Existentialism and Humanism</td>
+                  <td style="writing-mode:vertical-rl;">Existentialism</td>
+                  <td style="color: black;">"Man is nothing else but what he makes of himself."</td>
+                  <td style="color: black;">Sartre argued that humans are responsible for defining their essence through their actions, emphasizing the importance of individual choice and personal responsibility.</td>
+              </tr>
+              
+              <!-- Søren Kierkegaard -->
+              <tr>
+                  <td style="color: black;">Søren Kierkegaard, 1813-1855</td>
+                  <td style="color: black;">The Sickness Unto Death</td>
+                  <td style="writing-mode:vertical-rl;">Existentialism</td>
+                  <td style="color: black;">"The greatest hazard of all, losing one’s self, can occur very quietly in the world, as if it were nothing at all."</td>
+                  <td style="color: black;">Kierkegaard believed that living an authentic life required individuals to confront the anxiety of making choices, and that people must choose their own path rather than simply following societal norms.</td>
+              </tr>
+              
+              <!-- Albert Camus -->
+              <tr>
+                  <td style="color: black;">Albert Camus, 1913-1960</td>
+                  <td style="color: black;">The Myth of Sisyphus</td>
+                  <td style="writing-mode:vertical-rl;">Existentialism</td>
+                  <td style="color: black;">"The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion."</td>
+                  <td style="color: black;">Camus argued that life is inherently absurd, and humans must confront the absurdity of existence by finding meaning and purpose despite the lack of inherent meaning.</td>
+              </tr>
+              
+              <!-- Simone de Beauvoir -->
+              <tr>
+                  <td style="color: black;">Simone de Beauvoir, 1908-1986</td>
+                  <td style="color: black;">The Ethics of Ambiguity</td>
+                  <td style="writing-mode:vertical-rl;">Existentialism</td>
+                  <td style="color: black;">"One's life has value so long as one attributes value to the life of others, by means of love, friendship, indignation and compassion."</td>
+                  <td style="color: black;">De Beauvoir asserted that individuals must create their own values and act responsibly to maintain a meaningful existence, emphasizing the importance of empathy and compassion in human relationships.</td>
+              </tr>
+              <!-- Maurice Merleau-Ponty -->
+              <tr>
+                  <td style="color: black;">Maurice Merleau-Ponty, 1908-1961</td>
+                  <td >Phenomenology of Perception</td>
+                  <td style="writing-mode:vertical-rl;">Phenomenology</td>
+                  <td style="color: black;">"The body is our general medium for having a world."</td>
+                  <td style="color: black;">Merleau-Ponty believed that the "telos" of human beings is to better understand the world and our place in it through our embodied experience. He argued that our perception and understanding of the world are deeply rooted in our bodily experiences, and through reflection and interpretation, we can gain deeper insight into our existence.</td>
+              </tr>
+              
+              <!-- Jean-François Lyotard -->
+              <tr>
+                  <td style="color: black;">Jean-François Lyotard, 1924-1998</td>
+                  <td style="color: black;">The Postmodern Condition</td>
+                  <td style="writing-mode:vertical-rl;">Postmodernism</td>
+                  <td style="color: black;">"Simplifying to the extreme, I define postmodern as incredulity toward metanarratives."</td>
+                  <td style="color: black;">Lyotard critiqued grand narratives, including those about "telos." He argued that individuals should be skeptical of any overarching narrative or theory that claims to explain the ultimate purpose of human life, and instead focus on local and specific contexts.</td>
+              </tr>
+              
+              <!-- Alasdair MacIntyre -->
+              <tr>
+                  <td style="color: black;">Alasdair MacIntyre, 1929-present</td>
+                  <td style="color: black;">After Virtue</td>
+                  <td style="writing-mode:vertical-rl;">Virtue Ethics</td>
+                  <td style="color: black;">"The good life is the life spent seeking the good life."</td>
+                  <td style="color: black;">MacIntyre argued that the "telos" of human life is to cultivate virtues that enable individuals to achieve the good life. He emphasized the importance of moral character and the role of tradition in guiding ethical action.</td>
+              </tr>
+              
+              <!-- Martha Nussbaum -->
+              <tr>
+                  <td style="color: black;">Martha Nussbaum, 1947-present</td>
+                  <td style="color: black;">Women and Human Development</td>
+                  <td style="writing-mode:vertical-rl;">Capabilities Approach</td>
+                  <td style="color: black;">"Capabilities are not only about the opportunities people have; they are also about what people are actually able to do and to be."</td>
+                  <td style="color: black;">Nussbaum proposed that the "telos" of human life is to achieve a set of capabilities that enable flourishing. She argued that societies should focus on providing the resources and opportunities necessary for individuals to lead meaningful, fulfilling lives.</td>
+              </tr>
+              
+              <!-- Jürgen Habermas -->
+              <tr>
+                  <td style="color: black;">Jürgen Habermas, 1929-present</td>
+                  <td style="color: black;">The Philosophical Discourse of Modernity</td>
+                  <td style="writing-mode:vertical-rl;">Critical Theory</td>
+                  <td style="color: black;">"The task of a critique of modernity is to reconstruct the rational content of modernity that can be salvaged from the dialectic of enlightenment."</td>
+              </tr>
+              <!-- Richard Rorty -->
+              <tr>
+                  <td style="color: black;">Richard Rorty, 1931-2007</td>
+                  <td style="color: black;">Contingency, Irony, and Solidarity</td>
+                  <td style="writing-mode:vertical-rl;">Pragmatism/Postmodernism</td>
+                  <td style="color: black;">"The world does not tell us what language games to play."</td>
+                  <td style="color: black;">Rorty was skeptical of any universal "telos" and argued that we should focus on creating a more just and humane society by engaging in dialogue and sharing our individual stories. He believed that by rejecting foundationalism and embracing the contingency of our beliefs, we can foster a greater sense of solidarity and empathy among people.</td>
+              </tr>
+              <!-- Immanuel Kant -->
+              <tr>
+                <td>Immanuel Kant, 1724-1804</td>
+                <td>Groundwork for the Metaphysics of Morals, Preface</td>
+                <td style="writing-mode:vertical-rl;">German Idealism</td>
+                <td>"Metaphysics must be preceded by a critique of pure practical reason, in order that we may know how far reason can extend itself in this domain, and what its limits are."</td>
+                <td>Kant believed that humans have a moral duty to pursue their "telos," which is rational nature. He maintained that humans ought to seek the highest good and act according to moral principles.</td>
+              </tr>
+              <!-- John Dewey -->
+              <tr>
+                <td>John Dewey, 1859-1952</td>
+                <td>Democracy and Education, Chapter 12</td>
+                <td style="writing-mode:vertical-rl;">Pragmatism</td>
+                <td>"Progress is not the rule of the future as an abstraction; it is the possibilities of specific situations in their movement toward realization."</td>
+                <td>Dewey focused on the continuous adaptation of human goals to changing circumstances as our "telos." He believed that individuals should strive for growth and development through practical experience and experimentation.</td>
+              </tr>
+              <!-- Georg Wilhelm Friedrich Hegel -->
+              <tr>
+                <td>Georg Wilhelm Friedrich Hegel, 1770-1831</td>
+                <td>Phenomenology of Spirit, Preface</td>
+                <td style="writing-mode:vertical-rl;">German Idealism</td>
+                <td>"The True is the whole. But the whole is nothing other than the essence consummating itself through its development."</td>
+                <td>Hegel believed that history was the progressive unfolding of Spirit toward its "telos," which is absolute self-awareness. He argued that the dialectical process of history brought humanity closer to realizing its ultimate purpose.</td>
+              </tr>
+              <!-- Ludwig Wittgenstein -->
+              <tr>
+                <td>Ludwig Wittgenstein, 1889-1951</td>
+                <td>Tractatus Logico-Philosophicus, Proposition 7</td>
+                <td style="writing-mode:vertical-rl;">Analytic Philosophy</td>
+                <td>"Whereof one cannot speak, thereof one must be silent."</td>
+                <td>Wittgenstein did not directly address telos in his work. His primary focus was on language and the limits of our understanding. However, one could argue that his philosophy suggests that humans should focus on clarifying our concepts and understanding the limits of language to avoid philosophical confusion.</td>
+              </tr>
+              <!-- Carl Jung -->
+              <tr>
+                <td>Carl Jung, 1875-1961</td>
+                <td>Memories, Dreams, Reflections</td>
+                <td style="writing-mode:vertical-rl;">Analytical Psychology</td>
+                <td>"Who looks outside, dreams; who looks inside, awakes."</td>
+                <td>Jung proposed that the "telos" of human life is the process of individuation, which involves integrating conscious and unconscious elements of the psyche to achieve wholeness and self-realization. He believed that by facing our "shadow" and integrating it with our conscious self, we can attain psychological balance and fulfillment.</td>
+              </tr>
+              <!-- Alfred North Whitehead -->
+              <tr>
+                <td>Alfred North Whitehead, 1861-1947</td>
+                <td>The Concept of Nature</td>
+                <td style="writing-mode:vertical-rl;">Process Philosophy</td>
+                <td>"We think in generalities, but we live in detail."</td>
+                <td>Whitehead proposed that reality is a process of becoming, and the "telos" of each entity is to actualize its potential through its connections with other entities. He viewed the universe as a dynamic, interconnected web of processes, with each actual occasion seeking its own self-realization.</td>
+              </tr>
+              <!-- Simone de Beauvoir -->
+              <tr>
+                <td>Simone de Beauvoir, 1908-1986</td>
+                <td>The Second Sex</td>
+                <td style="writing-mode:vertical-rl;">Existentialism/Feminism</td>
+                <td>"One is not born, but rather becomes, a woman."</td>
+                <td>De Beauvoir believed that the "telos" of human beings is to create their own meaning and purpose through their choices and actions. She emphasized that individuals have the power to shape their own destinies and challenge societal norms.</td>
+              </tr>
+              <!-- Friedrich Nietzsche -->
+              <tr>
+                <td>Friedrich Nietzsche, 1844-1900</td>
+                <td>Thus Spoke Zarathustra, Part I, "On the Three Metamorphoses"</td>
+                <td style="writing-mode:vertical-rl;">Existentialism</td>
+                <td>"I teach you the overman. Man is something that shall be overcome. What have you done to overcome him?"</td>
+                <td>Nietzsche rejected the idea of a fixed "telos" and argued for personal self-realization. He emphasized that individuals should create their own meaning and purpose in life.</td>
+              </tr>
+              </table>
+
+              <p> Library 0.1</p>
+              <a href="#teachers">Teachers</a><br>
+              <a href="#powers">Powers</a><br>
+              <a href="#trigrams">Trigrams</a><br>
+              <a href="#telos">Telos</a><br>
+              <br><br>
+          <div id="footer"></div>
+      </div>
+
+
+
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script>
+        $(function(){
+          $("#header").load("header.html");
+          $("#footer").load("footer.html");
+        });
+      </script>
+      </body>
+      </html>
+
